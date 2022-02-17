@@ -1,0 +1,30 @@
+{
+  "name": "ipad-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nameList.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s": "nodemon server.mjs",
+    "p": "node nameList.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deeskii/ipad-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deeskii/ipad-dev/issues"
+  },
+  "homepage": "https://github.com/Deeskii/ipad-dev#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "fastify": "^3.27.1",
+    "jshint": "^2.13.4",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.15"
+  }
+}
